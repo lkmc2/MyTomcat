@@ -1,7 +1,8 @@
-#MyTomcat
+# MyTomcat
 一个自定义的Tomcat，可对网络路径请求进行处理。
 
-##启动方式
+## 启动方式
+
 运行TomcatStarter类的main方法。
 ```java
 public class TomcatStarter {
@@ -13,7 +14,8 @@ public class TomcatStarter {
 }
 ```
 
-##新建Servlet步骤
+## 新建Servlet步骤
+
 **1.新建类继承Servlet类，并重写doGet和doPost方法。**
 ```java
 public class LoginServlet extends Servlet {
