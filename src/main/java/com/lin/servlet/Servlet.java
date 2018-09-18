@@ -49,7 +49,7 @@ public abstract class Servlet {
      * @param text 输出的文字
      */
     protected void writeText(Response response, String text) {
-        // 向客户端输入的内容
+        // 向客户端输出的内容
         String result = Response.RESPONSE_HEADER + text;
 
         // 打开输出流，此处可根据需要将编码从GBK改成UTF-8
