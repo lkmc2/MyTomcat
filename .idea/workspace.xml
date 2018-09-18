@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40a8db1a-2df9-48b3-9f32-d7db0da90622" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyTomcat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lin/Starter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lin/http/Request.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lin/http/Response.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lin/servlet/ErrorServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lin/servlet/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lin/servlet/RegisterServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lin/servlet/Servlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lin/tomcat/MyTomcat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lin/tomcat/SocketProcess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,22 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/http/Request.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Servlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/servlet/Servlet.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -149,14 +117,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-                <folding>
-                  <element signature="e#72#73#0" expanded="true" />
-                  <element signature="e#110#111#0" expanded="true" />
-                  <element signature="e#119#120#0" expanded="true" />
-                  <element signature="e#165#166#0" expanded="true" />
-                </folding>
+              <first_editor relative-caret-position="258">
+                <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -190,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lin/servlet/ErrorServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lin/tomcat/SocketProcess.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lin/servlet/Servlet.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -311,6 +274,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -420,7 +384,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537269649944</updated>
-      <workItem from="1537269657330" duration="7393000" />
+      <workItem from="1537269657330" duration="7749000" />
     </task>
     <task id="LOCAL-00001" summary="完成自定义Tomcat的编写">
       <created>1537277004286</created>
@@ -429,11 +393,25 @@
       <option name="project" value="LOCAL" />
       <updated>1537277004286</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新项目描述">
+      <created>1537277127236</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537277127236</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新项目描述">
+      <created>1537277287783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537277287783</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7393000" />
+    <option name="totallyTimeSpent" value="7749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
@@ -464,7 +442,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32484075" />
       <window_info anchor="bottom" id="Terminal" weight="0.3299363" />
       <window_info anchor="bottom" id="MyBatis Sql Log" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23352435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23352435" />
       <window_info id="JRebel" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" />
       <window_info id="Learn" />
@@ -485,7 +463,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成自定义Tomcat的编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成自定义Tomcat的编写" />
+    <MESSAGE value="更新项目描述" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新项目描述" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -614,17 +593,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-            <folding>
-              <element signature="e#72#73#0" expanded="true" />
-              <element signature="e#110#111#0" expanded="true" />
-              <element signature="e#119#120#0" expanded="true" />
-              <element signature="e#165#166#0" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="258">
+            <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>

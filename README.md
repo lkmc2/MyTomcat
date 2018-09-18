@@ -16,7 +16,7 @@ public class TomcatStarter {
 
 ## 新建Servlet步骤
 
-**1.新建类继承Servlet类，并重写doGet和doPost方法。**
+1.新建类继承Servlet类，并重写doGet和doPost方法。
 ```java
 public class LoginServlet extends Servlet {
 
@@ -36,13 +36,13 @@ public class LoginServlet extends Servlet {
 }
 ```
 
-**2.打开resources目录下的web.properties文件，将请求路径和Servlet类名按如下形式填写。**
+2.打开resources目录下的web.properties文件，将请求路径和Servlet类名按如下形式填写。
 ```text
 # url和对应的Servlet类名需成对出现
 servlet.one.url=/login
 servlet.one.classname=com.lin.servlet.LoginServlet
 ```
 
-**3.运行TomcatStarter类的main方法，启动自定义Tomcat。**
+3.运行TomcatStarter类的main方法，启动自定义Tomcat。
 
-**4.浏览器访问网址：http://localhost:8888/login。**
+4.浏览器访问网址：http://localhost:8888/login。
