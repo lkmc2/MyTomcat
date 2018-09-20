@@ -1,6 +1,17 @@
 # MyTomcat
 一个自定义的Tomcat，可对网络路径请求进行处理。
 
+## 设计思路
+
+1. 读取配置文件的信息，将URL和对应的Servlet存储到Map中。
+2. 启动ServerSocket监听8888端口。
+3. ServerSocket获取浏览器的连接，并开启线程处理。
+4. 线程中获取客户端连接的输入流和输出流，生成Request和Response对象。
+5. Request对象中读取输入流，获取请求方式和路径。
+6. 线程中根据Request获取的请求路径从Map从获取对应的Servlet，将Request和Response交给Servlet的service方法处理。
+7. Servlet的service方法根据Request中的请求方式决定调用doGet()还是doPost()方法。
+8. 执行doGet()或doPost()方法后返回数据给浏览器。
+
 ## 启动方式
 
 运行TomcatStarter类的main方法。
