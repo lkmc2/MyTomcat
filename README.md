@@ -56,4 +56,4 @@ servlet.one.classname=com.lin.servlet.LoginServlet
 
 3.运行TomcatStarter类的main方法，启动自定义Tomcat。
 
-4.浏览器访问网址：http://localhost:8888/login。
+4.浏览器访问网址：http://localhost:8888/login
